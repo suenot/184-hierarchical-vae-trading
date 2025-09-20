@@ -1,0 +1,37 @@
+# Rust
+target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Data files
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+data/
+
+# Secrets
+.env
+*.key
+config.local.*
+secrets.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
